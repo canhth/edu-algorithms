@@ -10,21 +10,10 @@
  *    and 3 can only be partitioned as 1 and 2 (2 times). To prevent this, for a given small range
  *    we can pick the minimum for all results of deltas + values A from 0 to 4. For example, if A=2,
  *    [0, 3, 3, 3] + 2 = [2, 5, 5, 5], and the algorithm will give us 4.
- */
-
-/**
- * Return minimal number of subtractions for num to reach 0 by subtracting num for 1, 2 or 5.
- * @param {number} num
- * @return {number}
- */
-function stepsTo0 (num) {
-	let steps = Math.floor(num / 5);
-	steps += Math.floor((num = num % 5) / 2);
-	return steps + (num % 2);
-}
-
-/**
- * The problem solution.
+ *
+ * Complexity:
+ *    O(n) time, O(1) additional space.
+ *
  * @param {number[]} numbers
  */
 export default function minStepsToEqualize (numbers) {
@@ -40,4 +29,15 @@ export default function minStepsToEqualize (numbers) {
 
 	return minSteps;
 
+}
+
+/**
+ * Return minimal number of subtractions for num to reach 0 by subtracting num for 1, 2 or 5.
+ * @param {number} num
+ * @return {number}
+ */
+function stepsTo0 (num) {
+	let steps = Math.floor(num / 5);
+	steps += Math.floor((num = num % 5) / 2);
+	return steps + (num % 2);
 }
