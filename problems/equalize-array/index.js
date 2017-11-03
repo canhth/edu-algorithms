@@ -15,6 +15,7 @@
  *    O(n) time, O(1) additional space.
  *
  * @param {number[]} numbers
+ * @returns {number}
  */
 export default function minStepsToEqualize (numbers) {
 

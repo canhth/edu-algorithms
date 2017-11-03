@@ -1,5 +1,7 @@
 # Algorithmic Problems and their JavaScript Solutions
 
+[![npm](https://travis-ci.org/ZitRos/edu-algorithms.svg?branch=master)](https://travis-ci.org/ZitRos/edu-algorithms)
+
 Algorithmic problems and their solutions. This repository is for educational purposes.
 
 Problems

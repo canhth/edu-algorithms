@@ -1,0 +1,35 @@
+{
+  "name": "edu-algorithms",
+  "version": "1.0.0",
+  "description": "Algorithmic problems and their solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava problems/**/test.js"
+  },
+  "ava": {
+    "require": ["babel-register"]
+  },
+  "babel": {
+    "presets": ["@ava/stage-4"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZitRos/edu-algorithms.git"
+  },
+  "keywords": [
+    "algorithms",
+    "education",
+    "problem",
+    "statements",
+    "practice"
+  ],
+  "author": "ZitRo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZitRos/edu-algorithms/issues"
+  },
+  "homepage": "https://github.com/ZitRos/edu-algorithms#readme",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}

@@ -14,6 +14,7 @@
  * @param {number} a - Positive integer, a > 0
  * @param {number} b - Positive integer, b > a
  * @param {number} x - Positive integer, 0 < x < b - a + 1
+ * @returns {Set}
  */
 export default function solution (a, b, x) {
 
