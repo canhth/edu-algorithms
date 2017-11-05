@@ -1,5 +1,6 @@
 import test from "ava";
-import solution from "./index.js";
+import solution1 from "./index.js";
+import solution2 from "./dfs.js";
 
 [
 	[[0,1,3,5,6,8,12,17], true],
@@ -9,8 +10,10 @@ import solution from "./index.js";
 	[[0,1,3,6,10,15,21,23], false]
 ].forEach(([stones, result]) => test(`Stones [${ stones }], must be ${ result }`, (t) => {
 
-	const res = solution(stones);
+	const res = solution1(stones);
+	const res2 = solution2(stones);
 
-	return t.is(res, result);
+	t.is(res, result);
+	t.is(res2, result);
 
 }));
