@@ -18,9 +18,9 @@ Problems
 |-------------------------------------------------------------------------------|-------|---------------------------------------|---------------------------------------------------------------------------------------------------|
 | [Strobogrammatic numbers](problems/strobogrammatic-number)                    | 2     | Several                               | Check for and generate specific type of numbers (look same rotated 180 deg)                       |
 | [Maximum Indivisible Set in Range](problems/maximum-indivisible-set-in-range) | 3*    | O(n)/O(n)                             | Find a longest set of mutually indivisible integers in a given range                              |
-| [Frog Jump](problems/frog-jump)                                               | 4     | O(n<sup>2</sup>)/O(n<sup>2</sup>)     | Find out whether frog can cross the river by jumping through the given stones                     |
+| [Frog Jump](problems/frog-jump) (DP)                                          | 4     | O(n<sup>2</sup>)/O(n<sup>2</sup>)     | Find out whether frog can cross the river by jumping through the given stones                     |
 | [Equalize Array](problems/equalize-array)                                     | 4*    | O(n)/O(1)                             | Make all the numbers in the array equal by doing certain operations                               |
-| [Word Ladder](problems/word-ladder)                                           | 5     | O(n<sup>2</sup>×w)/O(n<sup>2</sup>×w) | Find a way to transform Word1 to Word2 using dictionary and 1 max allowed letter change at a time |
+| [Word Ladder](problems/word-ladder) (DFS, BFS)                                | 5     | O(n<sup>2</sup>×w)/O(n<sup>2</sup>×w) | Find a way to transform Word1 to Word2 using dictionary and 1 max allowed letter change at a time |
 
 Test All Problems
 -----------------

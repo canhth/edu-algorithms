@@ -1,5 +1,6 @@
 import test from "ava";
 import solution1 from "./dfs+mem.js";
+import solution2 from "./bfs+mem.js";
 
 [
 	[["hit", "cog", ["hot","dot","dog","lot","log","cog"]], [
@@ -12,7 +13,9 @@ import solution1 from "./dfs+mem.js";
 }"]], return [[${ result.map(r => `"${ r }"`).join("], [") }]]`, (t) => {
 
 	const res = solution1.apply(null, args);
+	const res2 = solution2.apply(null, args);
 
-	return t.deepEqual(res, result);
+	t.deepEqual(res, result);
+	t.deepEqual(res2, result);
 
 }));
