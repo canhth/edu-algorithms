@@ -20,6 +20,11 @@ units to the 8th stone.
 If you are given an array of `[0,1,2,3,4,8,9,11]`, it's not possible.
 There is no way to jump to the last stone as the gap between the 5th and 6th stone is too large.
 
+Graphics
+--------
+
+![img_3668](https://user-images.githubusercontent.com/4989256/32445663-1c6549f6-c30f-11e7-8751-dd83460cfd15.jpg)
+
 ---
 
 [Problem Source](https://leetcode.com/problems/frog-jump/description/).
