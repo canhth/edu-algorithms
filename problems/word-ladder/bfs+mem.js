@@ -1,4 +1,4 @@
-import Queue from "../../helpers/Queue.js";
+import Queue from "../../basic/Queue.js";
 
 function addSolution (list, arr = []) {
 	if (list.parent)
