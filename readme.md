@@ -16,6 +16,7 @@ Problems
 
 | Problem Name                                                                  | Level | Complexity                            | Short Description                                                                                         |
 |-------------------------------------------------------------------------------|-------|---------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [Hamming Distance](problems/hamming-distance)                                 | 1     | O(n)/O(1)                             | Find a number of different bits in two positive integers                                                  |
 | [Strobogrammatic numbers](problems/strobogrammatic-number)                    | 2     | Several                               | Check for and generate specific type of numbers (which look same rotated 180 deg)                         |
 | [Maximum Indivisible Set in Range](problems/maximum-indivisible-set-in-range) | 3*    | O(n)/O(n)                             | Find a longest set of mutually indivisible integers in a given range                                      |
 | [Frog Jump](problems/frog-jump) (DP)                                          | 4     | O(n<sup>2</sup>)/O(n<sup>2</sup>)     | Find out whether frog can cross the river by jumping through the given stones                             |
