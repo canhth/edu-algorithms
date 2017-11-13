@@ -24,6 +24,7 @@ Problems
 | [Equalize Array](problems/equalize-array)                                     | 4*    | O(n)/O(1)                             | Make all the numbers in the array equal by doing certain operations                                       |
 | [Word Ladder](problems/word-ladder) (DFS, BFS)                                | 5     | O(n<sup>2</sup>×w)/O(n<sup>2</sup>×w) | Find a way to transform Word1 to Word2 using dictionary and 1 max allowed letter change at a time         |
 | [Test Regular Expression](problems/test-regular-expression) (Recursive)       | 5     | O(n<sup>2</sup>)/O(n)                 | Test whether string matches regular expression with `.`, `*` and letters                                  |
+| [Longest Consecutive Sequence](problems/longest-consecutive-sequence)         | 5*    | O(n)/O(n)                             | Given an unsorted array of integers, find the length of the longest consecutive elements sequence.        |
 | [Burst Balloons](problems/burst-balloons) (Divide & Conquer)                  | 5+    | O(n<sup>3</sup>)/O(n<sup>2</sup>)     | Given an array of numbers, remove a number one by one to get the maximum sum of adjacent numbers product. |
 
 Test All Problems
