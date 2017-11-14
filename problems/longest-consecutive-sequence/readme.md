@@ -12,7 +12,7 @@ The longest consecutive elements sequence is `[1, 2, 3, 4]`. Return its length: 
 Graphics
 --------
 
-![Board](https://user-images.githubusercontent.com/4989256/32730149-cc321e52-c88e-11e7-8700-ef01fe1134c3.JPG)
+![Board](https://user-images.githubusercontent.com/4989256/32730363-84fc1ae6-c88f-11e7-8839-838800a1f61e.JPG)
 
 ---
 
