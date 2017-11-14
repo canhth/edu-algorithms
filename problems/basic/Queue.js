@@ -6,7 +6,7 @@ export default class Queue {
 			: null;
 	}
 
-	head () {
+	first () {
 		return this.head ? this.head.value : null;
 	}
 
