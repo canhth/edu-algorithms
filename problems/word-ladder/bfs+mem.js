@@ -22,7 +22,7 @@ export default function findLadders (w1, w2, wList) {
 		maxLevel = Infinity,
 		q;
 
-	while (q = queue.poll()) {
+	while (q = queue.pull()) {
 
 		if (q.level > maxLevel)
 			break;

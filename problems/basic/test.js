@@ -62,15 +62,15 @@ import gcd from "./gcd.js";
 			queue.add(acts[i]);
 			t.is(queue.first(), tops[i]);
 		} else {
-			t.is(queue.poll(), tops[i]);
+			t.is(queue.pull(), tops[i]);
 		}
 	}
 
 	for (; i < tops.length; ++i) {
-		t.is(queue.poll(), tops[i]);
+		t.is(queue.pull(), tops[i]);
 	}
 
-	t.is(queue.poll(), null);
+	t.is(queue.pull(), null);
 
 }));
 

@@ -10,7 +10,7 @@ export default class Queue {
 		return this.head ? this.head.value : null;
 	}
 
-	poll () {
+	pull () {
 		if (this.head === null)
 			return null;
 		const value = this.head.value;
