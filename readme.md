@@ -14,8 +14,8 @@ Problems
 | Complexity        | Solution complexity level (time/space)                                     |
 | Short Description | A short description of the problem                                         | 
 
-| Problem Name                                                                  | Level | Complexity                            | Short Description                                                                                                        |
-|-------------------------------------------------------------------------------|-------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Problem Name                                                                                 | Level | Complexity                            | Short Description                                                                                         |
+|----------------------------------------------------------------------------------------------|-------|---------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [Hamming Distance](problems/hamming-distance)                                                | 1     | O(n)/O(1)                             | Find a number of different bits in two positive integers                                                  |
 | [Doubly Linked List Insertion](problems/doubly-linked-list-insertion)                        | 1     | O(n)/O(1)                             | Insert a new element to doubly linked list in such way to keep the list sorted.                           |
 | [Strobogrammatic numbers](problems/strobogrammatic-number)                                   | 2     | Several                               | Check for and generate specific type of numbers (which look same rotated 180 deg)                         |
