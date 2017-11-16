@@ -7,10 +7,14 @@
     "test": "ava problems/**/test.js"
   },
   "ava": {
-    "require": ["babel-register"]
+    "require": [
+      "babel-register"
+    ]
   },
   "babel": {
-    "presets": ["@ava/stage-4"]
+    "presets": [
+      "@ava/stage-4"
+    ]
   },
   "repository": {
     "type": "git",

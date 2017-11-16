@@ -2,7 +2,7 @@ export default class Heap {
 
 	constructor (comparator) {
 		this.array = [];
-		this.comparator = comparator || ((a, b) => a - b); // min heap by default
+		this.comparator = comparator || Heap.MIN;
 	}
 
 	add (element) {
@@ -71,3 +71,6 @@ export default class Heap {
 	}
 
 }
+
+Heap.MIN = (a, b) => a - b;
+Heap.MAX = (a, b) => b - a;
