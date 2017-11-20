@@ -70,7 +70,7 @@ import gcd from "./gcd.js";
 		t.is(queue.pull(), tops[i]);
 	}
 
-	t.is(queue.pull(), null);
+	t.is(queue.pull(), undefined);
 
 }));
 
