@@ -26,7 +26,7 @@ as `"[1,2,3,null,null,4,5]"`. But there may be a better way of serialization.
 Graphics
 --------
 
-![img_3669](https://user-images.githubusercontent.com/4989256/32445664-1cc04130-c30f-11e7-999c-f3c14d7bee7a.jpg)
+![Board](https://user-images.githubusercontent.com/4989256/33038155-6a8209c0-ce3c-11e7-9fad-765969337d36.JPG)
 
 ---
 
