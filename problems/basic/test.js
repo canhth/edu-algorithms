@@ -1,7 +1,49 @@
 import test from "ava";
 import Heap from "./Heap.js";
 import Queue from "./Queue.js";
+import DoubleEndedQueue from "./DoubleEndedQueue.js";
 import gcd from "./gcd.js";
+
+const PULL = -100500;
+const PULL_LAST = 100500;
+
+[
+	[
+		[1,PULL,2,PULL_LAST,1,3,7,PULL_LAST,PULL,PULL],
+		[
+			[undefined, undefined],
+			[1, 1],
+			[undefined, undefined],
+			[2, 2],
+			[undefined, undefined],
+			[1, 1],
+			[1, 3],
+			[1, 7],
+			[1, 3],
+			[3, 3],
+			[undefined, undefined]
+		]
+	]
+].forEach(([dos, compares]) => test(`DoubleEndedQueue test`, (t) => {
+
+	const queue = new DoubleEndedQueue();
+
+	for (let i = 0; i < compares.length; ++i) {
+		t.is(queue.peek(), compares[i][0]);
+		t.is(queue.peekLast(), compares[i][1]);
+		if (i !== compares.length - 1) {
+			if (dos[i] === PULL)
+				queue.pull();
+			else if (dos[i] === PULL_LAST)
+				queue.pullLast();
+			else
+				queue.add(dos[i]);
+		}
+	}
+
+	t.is(queue.empty(), true);
+
+}));
 
 [
 	[[3,1,5,8,0], [3,1,1,1,0]],
