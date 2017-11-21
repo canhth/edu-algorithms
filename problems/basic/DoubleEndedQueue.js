@@ -4,7 +4,7 @@ export default class DoubleEndedQueue {
 		this.head = this.tail = undefined;
 	}
 
-	empty () {
+	isEmpty () {
 		return !this.head;
 	}
 

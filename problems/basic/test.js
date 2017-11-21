@@ -28,7 +28,11 @@ const PULL_LAST = 100500;
 
 	const queue = new DoubleEndedQueue();
 
+	t.is(queue.isEmpty(), true);
+
 	for (let i = 0; i < compares.length; ++i) {
+		if (typeof compares[i][0] !== "undefined")
+			t.is(queue.isEmpty(), false);
 		t.is(queue.peek(), compares[i][0]);
 		t.is(queue.peekLast(), compares[i][1]);
 		if (i !== compares.length - 1) {
@@ -41,7 +45,7 @@ const PULL_LAST = 100500;
 		}
 	}
 
-	t.is(queue.empty(), true);
+	t.is(queue.isEmpty(), true);
 
 }));
 
