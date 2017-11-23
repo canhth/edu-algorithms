@@ -8,7 +8,7 @@ Example
 ```txt
 [
   [1, 2, 3]
-  [8, 9  4]
+  [8, 9, 4]
   [7, 6, 5]
 ]
 ```
@@ -19,3 +19,12 @@ Comments
 --------
 
 Instead of 4-loops solution, I made a border-looping solution which mady my day hard! :)
+
+Board
+-----
+
+![Board](https://user-images.githubusercontent.com/4989256/33177212-83519224-d06a-11e7-86c7-f617046faf74.JPG)
+
+---
+
+[Problem Source](https://leetcode.com/problems/spiral-matrix/description/) + school tasks
