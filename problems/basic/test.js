@@ -70,6 +70,9 @@ const PULL_LAST = 100500;
 		t.is(minHeap.poll(), sorted[i]);
 	}
 
+	t.is(minHeap.size(), 0);
+	t.is(minHeap.poll(), undefined);
+
 }));
 
 [
@@ -92,6 +95,9 @@ const PULL_LAST = 100500;
 	for (let i = 0; i < res.length; ++i) {
 		t.is(maxHeap.poll(), sorted[i]);
 	}
+
+	t.is(maxHeap.size(), 0);
+	t.is(maxHeap.poll(), undefined);
 
 }));
 

@@ -18,6 +18,8 @@ export default class Heap {
 		const element = this.peak();
 		if (this.array.length > 1)
 			this.array[0] = this.array.pop();
+		else
+			this.array.pop();
 		this.heapifyDown();
 		return element;
 	}
