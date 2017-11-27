@@ -5,13 +5,14 @@ when viewed from a distance. Now suppose you are given the locations and height 
 as shown on a cityscape photo (Figure A), write a program to output the skyline formed by these 
 buildings collectively (Figure B).
 
-![Figure](https://user-images.githubusercontent.com/4989256/33266006-81e02094-d37c-11e7-9880-48485cc3b093.png)
+<img src="https://user-images.githubusercontent.com/4989256/33266006-81e02094-d37c-11e7-9880-48485cc3b093.png" width="48%"></img>
+<img src="https://user-images.githubusercontent.com/4989256/33266397-25fc27f8-d37e-11e7-94ba-a740daf5b74d.png" width="48%"></img>
 
 The geometric information of each building is represented by a triplet of integers `[Li, Ri, Hi]`, 
-where Li and Ri are the x coordinates of the left and right edge of the ith building, respectively, 
-and Hi is its height. It is guaranteed that 0 ≤ Li, Ri ≤ INT_MAX, 0 < Hi ≤ INT_MAX, and Ri - Li > 0.
-You may assume all buildings are perfect rectangles grounded on an absolutely flat surface at height
-0.
+where `Li` and `Ri` are the `x` coordinates of the left and right edge of the `i`th building, 
+respectively, and `Hi` is its height. It is guaranteed that `0 ≤ Li`, `Ri ≤ INT_MAX`, 
+`0 < Hi ≤ INT_MAX`, and `Ri - Li > 0`. You may assume all buildings are perfect rectangles grounded
+on an absolutely flat surface at height `0`.
 
 Notes:
 
