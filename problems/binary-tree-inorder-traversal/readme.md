@@ -1,4 +1,4 @@
-# Binary Tree Inorder traversal
+# Binary Tree Inorder Traversal
 
 Given a binary tree, output its elements as of priorder traversal. Recursive solution is trivial, so
 try to use iterative one. 
