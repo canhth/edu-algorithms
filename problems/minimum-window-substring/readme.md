@@ -24,4 +24,4 @@ Graphics
 
 ---
 
-[Problem Source](https://www.hackerrank.com/contests/hourrank-24/challenges/mutual-indivisibility/).
+[Problem Source](https://leetcode.com/problems/minimum-window-substring/description/).
