@@ -9,7 +9,7 @@ export default function permutations (string) {
 }
 
 function wrapper (array, left = 0, results = []) {
-	if (left >= array.length) {
+	if (left + 1 >= array.length) {
 		results.push(array.join(""));
 		return results;
 	}
